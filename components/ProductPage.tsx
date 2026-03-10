@@ -24,7 +24,7 @@ const ProductPage: React.FC = () => {
 
     const handleWhatsAppClick = () => {
         const message = encodeURIComponent(`مرحباً، أريد الاستفسار عن المنتج: ${product.name}`);
-        window.open(`https://wa.me/201000000000?text=${message}`, '_blank');
+        window.open(`https://wa.me/201080203632?text=${message}`, '_blank');
     };
 
     return (
